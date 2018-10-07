@@ -1,4 +1,4 @@
-FROM arcaneio/mini
+FROM arcaneio/mini:1.1
 
 RUN apk add --no-cache \
             bash \ 
