@@ -7,5 +7,6 @@ RUN apk add --no-cache \
             gzip \
             tar \
             curl \
+            jq \
             wget \
             rsync
