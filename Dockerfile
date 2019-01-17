@@ -1,6 +1,6 @@
-FROM arcaneio/mini:1.2
+FROM arcaneio/mini:1.3
 
-RUN apk add --no-cache \
+RUN apk add --update --no-cache \
             bash \ 
             bash-completion \
             bzip2 \
@@ -9,4 +9,5 @@ RUN apk add --no-cache \
             curl \
             jq \
             wget \
-            rsync
+            rsync \
+            ca-certificates
